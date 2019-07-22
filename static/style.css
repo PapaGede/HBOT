@@ -47,6 +47,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 body {
@@ -55,6 +56,7 @@ body {
     font-size: 15px;
     line-height: 1.8em;
     color: #898989;
+    cursor: pointer;
 }
 
 a {
@@ -90,6 +92,7 @@ h6 {
     margin: 0 0 15px;
     font-weight: 600;
     line-height: 1.4em;
+    cursor: pointer;
 }
 
 .satisfy {
@@ -98,6 +101,7 @@ h6 {
 
 h2 {
     font-size: 36px;
+    cursor: pointer;
 }
 
 
@@ -222,7 +226,11 @@ input:-webkit-autofill:focus {
     background:  dodgerblue;
 }
 
-
+.animtoy{
+    height:5px;
+    position:absolute;
+    top: -1px;
+}
 
 
 /*-- 5. Mainmenu-Area --*/
@@ -285,6 +293,8 @@ input:-webkit-autofill:focus {
 .mainmenu-area #search-box {
     width: 100%;
 }
+
+
 
 
 @-webkit-keyframes downup {
@@ -1255,7 +1265,7 @@ a.scrolldown {
 /*-- 21. process-area --*/
 
 .process {
-    background: url('images/service-line.jpg') no-repeat scroll top 20px center;
+    background: url('/static/images/service-line.jpg') no-repeat scroll top 20px center;
     color: #6b6d6f;
 }
 
